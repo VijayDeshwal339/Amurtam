@@ -118,7 +118,7 @@ function AppointmentFee()  {
               style={{ color: selectedDate === id ? '#3A643B' : '#000000' }}>
               {date}
             </p>
-            <p className={`font-Nun font-bold text-base leading-[21.82px] text-[${textColor}]`}>
+            <p className="font-Nun font-bold text-base leading-[21.82px]" style={{ color: textColor }}>
               {slots}
             </p>
           </div>
